@@ -31,8 +31,8 @@ import numpy as np
 #| export
 
 def simulate_data():
-    x = np.arange(25)
-    y = x * 3
+    x = np.arange(24)
+    y = x * 2
     return x, y
 ```
 
