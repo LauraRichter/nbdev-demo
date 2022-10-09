@@ -25,6 +25,7 @@ jupyter:
 #| export
 import matplotlib.pylab as plt
 import numpy as np
+import pandas as pd
 ```
 
 ```python
@@ -44,6 +45,12 @@ plt.plot(x, y)
 ```python
 n = 15
 plt.plot(np.random.randn(n))
+print('plot!')
+```
+
+```python
+df = pd.DataFrame({'x': x, 'y': y})
+df
 ```
 
 ```python
