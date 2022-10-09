@@ -32,7 +32,7 @@ import numpy as np
 
 def simulate_data():
     x = np.arange(24)
-    y = x * 2
+    y = x ** 2
     return x, y
 ```
 
@@ -42,7 +42,7 @@ plt.plot(x, y)
 ```
 
 ```python
-n = 150
+n = 15
 plt.plot(np.random.randn(n))
 ```
 
